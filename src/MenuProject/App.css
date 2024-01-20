@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: hsla(60, 1%, 86%, 0.876);
+  color: hsl(209, 61%, 16%);
+}
+
+.tittle {
+  text-align: center;
+}
+
+.photo {
+  height: 250px;
+  width: 500px;
+}
+.title {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: auto;
+}
+.cart-wrapper ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-wrapper {
+  width: 85%;
+  margin: auto;
+}
+.menu-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.menu-item-card {
+  margin: 30px 0 30px 0;
+}

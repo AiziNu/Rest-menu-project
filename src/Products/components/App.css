@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+}
+
+.product-card img{
+ width: 200px;
+ height: 250px;
+ margin: auto;
+ position: relative;
+}
+ .favorite-icon{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  fill: lightgray;
+ }
+.products-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-item{
+  color: white;
+  word-spacing: 10px
+}
